@@ -32,9 +32,9 @@ header{
     margin: auto;
 }
 .container h1{
-    font-size: 3.8vw;
+    font-size: max(3.8vw, 24px);
     letter-spacing: 1px;
-    margin: 50px;
+    margin: 50px 0px;
 }
 .profile{
     margin: 1vw;
@@ -66,7 +66,7 @@ header{
     display: flex;
 }
 .profile-name{
-    font-size: 1.3vw;
+    font-size: max(1.3vw, 12px);
     text-align: center;
     font-weight: 600;
 }
@@ -91,11 +91,4 @@ header{
 .btn-container button:hover{
     color: white;
     border-color: white;
-}
-
-
-@media screen and (max-width: 926px){
-    .profile-name{
-        font-size: 12px;
-    }
 }
